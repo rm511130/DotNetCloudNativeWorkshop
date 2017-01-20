@@ -35,7 +35,7 @@ Targeted space development
 
 
 
-API endpoint:   https://api.run.haas-65.pez.pivotal.io (API version: 2.54.0)
+API endpoint:   https://api.run.haas-65.pez.pivotal.io (API version: 6.23.0)
 User:           student-1
 Org:            student-1
 Space:          development
