@@ -248,17 +248,4 @@ time                          event                   actor   description
 2016-10-16T23:11:21.00-0400   audit.app.update        admin   state: STOPPED
 ----
 
-== Viewing Application _Metrics_ with PCF Metrics
-
-1. To access PCF Metrics go to this URL in your browser: https://metrics.run.haas-76.pez.pivotal.io  
-    a. Accept the authorization request if prompted.
-    b. Select the application you want to see metrics from in the selection box
-+
-image::../../Common/images/lab-metrics-sel.png[]
-+
-	c. Explore the container and network metrics and correlate them with your logs!
-+
-image::../../Common/images/lab-metrics.png[]
-+
-    d. For more information about PCF Metrics visit this URL: https://docs.pivotal.io/pcf-metrics/1-1/using.html
 
