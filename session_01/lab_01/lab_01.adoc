@@ -142,7 +142,7 @@ You should see output similar to the following listing.
 +
 ====
 ----
-
+> cf apps
 Getting apps in org student-42 / space development as student-42...
 OK
 
