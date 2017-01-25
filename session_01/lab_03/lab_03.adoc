@@ -129,7 +129,7 @@ image::../../Common/images/lab-add-route.png[]
 +
 image::../../Common/images/lab-new-route.png[]
 
-. We can just as easily remove a route by clicking on _Unmap_ on the route you wish to remove.
+. We can just as easily remove a route by clicking on _x icon_ on the route you wish to remove.
 +
 image::../../Common/images/lab-unmap-route.png[]
 +
