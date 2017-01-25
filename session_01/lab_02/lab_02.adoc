@@ -61,27 +61,28 @@ A _restage_ is generally recommended because Cloud Foundry buildpacks also have 
 > cf restage env
 ----
 +
-Once the application is running again, revisit or refresh the browser tab where you have the _Wokshop_ application loaded.  You'll notice now we have information that could be used to connect to the MySQL DB.
+Once the application is running again, revisit or refresh the browser tab where you have the _Env_ application loaded. Click on your app and navigate to _Env Variables_ link. You'll notice now we have information that could be used to connect to the MySQL DB.
 In fact, data can now be stored/retrieved into/from that MySQL database!
 +
 ----
-Bound Services:
- {
+
+    "VCAP_SERVICES": {
       "p-mysql": [
         {
           "credentials": {
-            "hostname": "10.193.145.99",
+            "hostname": "10.193.134.88",
             "port": 3306,
-            "name": "cf_7c0c16f7_0a95_4cf3_a09a_cf8313f03368",
-            "username": "l7LaLOikclWCLxct",
-            "password": "vIvyu22u4grdRZqr",
-            "uri": "mysql://l7LaLOikclWCLxct:vIvyu22u4grdRZqr@10.193.145.99:3306/cf_7c0c16f7_0a95_4cf3_a09a_cf8313f03368?reconnect=true",
-            "jdbcUrl": "jdbc:mysql://10.193.145.99:3306/cf_7c0c16f7_0a95_4cf3_a09a_cf8313f03368?user=l7LaLOikclWCLxct&password=vIvyu22u4grdRZqr"
+            "name": "cf_8d68be2f_4acc_423b_8800_8ba2af7e2867",
+            "username": "1oduLYKiSNgPvr42",
+            "password": "l9ISLc3bJhe7i5cJ",
+            "uri": "mysql://1oduLYKiSNgPvr42:l9ISLc3bJhe7i5cJ@10.193.134.88:3306/cf_8d68be2f_4acc_423b_8800_8ba2af7e2867?reconnect=true",
+            "jdbcUrl": "jdbc:mysql://10.193.134.88:3306/cf_8d68be2f_4acc_423b_8800_8ba2af7e2867?user=1oduLYKiSNgPvr42&password=l9ISLc3bJhe7i5cJ"
           },
           "syslog_drain_url": null,
+          "volume_mounts": [],
           "label": "p-mysql",
           "provider": null,
-          "plan": "100mb-dev",
+          "plan": "100mb",
           "name": "mysql",
           "tags": [
             "mysql",
@@ -89,7 +90,7 @@ Bound Services:
           ]
         }
       ]
-    }
+  },
 ----
 
 . You may also verify your service was provisioned in the Apps Manager UI by clicking on your application and selecting the _Services_ tab.
