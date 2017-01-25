@@ -151,13 +151,12 @@ env    started           1/1         512M     1G     env-unrecaptured-casaque.cf
 
 +
 Note the application name for next steps
-
++
 . Get information about running instances, memory, CPU, and other statistics using CLI instances command
 +
 ----
 > cf app env
 ----
-
 +
 You should see output similar to the following listing.
 +
