@@ -136,12 +136,10 @@ image::../../Common/images/lab-net.png[]
 +
 ----
 > cf apps
-is this grey too?
 ----
 +
 You should see output similar to the following listing.
 +
-====
 ----
 > cf apps
 Getting apps in org student-42 / space development as student-42...
@@ -149,7 +147,9 @@ OK
 
 name   requested state   instances   memory   disk   urls
 env    started           1/1         512M     1G     env-unrecaptured-casaque.cfapps.haas-65.pez.pivotal.io
+----
 +
+
 Note the application name for next steps
 
 . Delete the deployed application using the CLI
