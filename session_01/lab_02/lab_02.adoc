@@ -105,7 +105,7 @@ You should now see the service created in step 1 listed.
 > cf services
 ----
 +
-. Now take a look at your app again, you can interact with the database through the new section for attendees.
+. Now take a look at your app again, you can interact with the database through the new section for attendees. Click on 'Add Attendee' and it should add a row to the database table and refresh it on the screen:
 +
 image::../../Common/images/lab-app-db.png[]
 +
