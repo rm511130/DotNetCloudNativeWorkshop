@@ -138,6 +138,18 @@ image::../../Common/images/lab-net.png[]
 > cf apps
 ----
 +
+You should see output similar to the following listing.
++
+====
+----
+
+Getting apps in org student-42 / space development as student-42...
+OK
+
+name   requested state   instances   memory   disk   urls
+env    started           1/1         512M     1G     env-unrecaptured-casaque.cfapps.haas-65.pez.pivotal.io
+
++
 Note the application name for next steps
 
 . Get information about running instances, memory, CPU, and other statistics using CLI instances command
