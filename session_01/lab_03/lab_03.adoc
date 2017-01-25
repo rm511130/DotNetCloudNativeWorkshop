@@ -137,7 +137,7 @@ If you navigate to that URL you'll receive a HTTP 404 response
 +
 image::../../Common/images/lab-no-route.png[]
 
-. This is how blue-green deployments are accomplished. Check the https://docs.pivotal.io/pivotalcf/1-7/devguide/deploy-apps/blue-green.html[documentation] for detaild instructions.
+. This is how blue-green deployments are accomplished. Check the https://docs.pivotal.io/pivotalcf/1-9/devguide/deploy-apps/blue-green.html[documentation] for detailed instructions.
 +
 image::../../Common/images/blue-green.png[]
 
