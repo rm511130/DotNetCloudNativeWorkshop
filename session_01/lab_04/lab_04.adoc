@@ -10,7 +10,7 @@ In the this labs we'll explore some of these capabilities.
 
 One of the most important enablers of visibility into application behavior is logging.
 Effective management of logs has historically been difficult or required wiring into third party tools.
-Cloud Foundry's https://docs.pivotal.io/pivotalcf/1-7/loggregator/architecture.html[log aggregation] components simplify log management by assuming responsibility for it.
+Cloud Foundry's https://docs.pivotal.io/pivotalcf/1-9/loggregator/architecture.html[log aggregation] components simplify log management by assuming responsibility for it.
 Application developers need only log all messages to either 'Console.Write' in .NET or  `STDOUT` or `STDERR` in other languages, and the platform will capture these messages.
 
 === For Developers
@@ -29,20 +29,12 @@ Here are two interesting subsets of one output from that command:
 ====
 ----
 > cf logs env --recent
-Connected, dumping recent logs for app env in org instructor / space development as admin...
-2016-10-16T20:51:06.59-0400 [CELL/1]     OUT Creating container
-2016-10-16T20:51:07.18-0400 [CELL/1]     OUT Successfully created container
-2016-10-16T20:51:07.59-0400 [CELL/1]     OUT Starting health monitoring of container
-2016-10-16T20:51:11.11-0400 [APP/1]      OUT PORT == 51721
-2016-10-16T20:51:11.11-0400 [APP/1]      OUT Running ..\tmp\lifecycle\WebAppServer.exe
-2016-10-16T20:51:11.11-0400 [APP/1]      OUT 2016-10-17 00:51:08Z|INFO|Port:51721
-2016-10-16T20:51:11.11-0400 [APP/1]      OUT 2016-10-17 00:51:08Z|INFO|Webroot:c:\containerizer\034C916AB3FD51DA35\user\app
-2016-10-16T20:51:11.11-0400 [APP/1]      OUT 2016-10-17 00:51:08Z|INFO|Starting web server instance...
-2016-10-16T20:51:11.11-0400 [APP/1]      OUT Checking DB structure.
-2016-10-16T20:51:11.11-0400 [APP/1]      OUT Server Started.... press CTRL + C to stop
-2016-10-16T20:51:11.62-0400 [CELL/1]     OUT Container became healthy
-2016-10-16T20:52:11.63-0400 [API/0]      OUT Updated app with guid e59bfcea-1a35-4b5f-ae84-2d7c78e13976 ({"instances"=>3})
-2016-10-16T20:54:11.63-0400 [RTR/0]      OUT env-grumous-imperativeness.cfapps.haas-76.pez.pivotal.io - [17/10/2016:00:54:11.128 +0000] "GET / HTTP/1.1" 200 0 8376 "http://env-grumous-imperativeness.cfapps.haas-76.pez.pivotal.io/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36" 10.193.145.250:44800 x_forwarded_for:"10.193.145.1" x_forwarded_proto:"http" vcap_request_id:60153894-cfdc-444d-7e0f-77faa17d01fb response_time:0.006277964 app_id:e59bfcea-1a35-4b5f-ae84-2d7c78e13976
+Connected, dumping recent logs for app env in org student-42 / space development as student-42...
+
+2017-01-25T16:50:30.07-0500 [API/0]      OUT Updated app with guid bcb76c4f-a6a8-4c21-93b9-b796ab30a7c7 ({"route"=>"c1702caa-9ca6-4cda-b373-69a93412f202"})
+2017-01-25T16:50:33.74-0500 [RTR/0]      OUT alternate-subdomain.cfapps.haas-65.pez.pivotal.io - [25/01/2017:21:50:33.731 +0000] "GET / HTTP/1.1" 200 0 8417 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12" 10.193.134.250:35718 10.193.134.3:50457 x_forwarded_for:"50.232.79.2" x_forwarded_proto:"https" vcap_request_id:01ffe40b-7eac-4ed5-4288-520115fe4a77 response_time:0.009324429 app_id:bcb76c4f-a6a8-4c21-93b9-b796ab30a7c7 app_index:0
+2017-01-25T16:50:33.79-0500 [RTR/0]      OUT alternate-subdomain.cfapps.haas-65.pez.pivotal.io - [25/01/2017:21:50:33.792 +0000] "GET /css/foundation.css HTTP/1.1" 304 0 0 "https://alternate-subdomain.cfapps.haas-65.pez.pivotal.io/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12" 10.193.134.250:35720 10.193.134.3:50457 x_forwarded_for:"50.232.79.2" x_forwarded_proto:"https" vcap_request_id:f783c1b1-58ca-4a57-5034-82453865eb09 response_time:0.002803689 app_id:bcb76c4f-a6a8-4c21-93b9-b796ab30a7c7 app_index:0
+
 ----
 <1> An ``Apache-style'' access log event from the (Go)Router
 <2> An API log event that corresponds to an event as shown in `cf events`
@@ -52,8 +44,8 @@ Connected, dumping recent logs for app env in org instructor / space development
 .Application Logs
 ====
 ----
-2016-10-16T22:58:29.70-0400 [APP/0]      OUT Kaboom.
-2016-10-16T22:58:29.72-0400 [APP/0]      OUT Exit status -1
+2017-01-25T16:50:45.95-0500 [APP/0]      OUT Kaboom.
+2017-01-25T16:53:44.43-0500 [APP/0]      OUT Exit status -1
 ----
 ====
 +
@@ -70,9 +62,9 @@ You can try various things like refreshing the browser and triggering stop/start
 
 == Health Management
 
-Cloud Foundry's https://docs.pivotal.io/pivotalcf/1-7/concepts/architecture/#nsync-bbs[components] actively monitors the health of our application processes and will restart them should they crash.
+Cloud Foundry's https://docs.pivotal.io/pivotalcf/1-9/concepts/architecture/#nsync-bbs[components] actively monitors the health of our application processes and will restart them should they crash.
 
-. If you don't have one already running, start a log tail for `workshop`.  Alternatively, you could view the logs using the papertrail app.
+. If you don't have one already running, start a log tail for `env`.  Alternatively, you could view the logs using the papertrail app.
 +
 ----
 > cf logs env
