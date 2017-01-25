@@ -99,19 +99,19 @@ The first is available via the CLI. Just type:
 
 ----
 > cf app env
-Showing health and status for app env in org instructor / space development as admin...
+Showing health and status for app env in org student-42 / space development as student-42...
 OK
 
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: env-grumous-imperativeness.cfapps.haas-76.pez.pivotal.io
-last uploaded: Mon Oct 17 00:13:08 UTC 2016
+urls: env-patellate-catatonia.cfapps.haas-65.pez.pivotal.io
+last uploaded: Wed Jan 25 13:39:36 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
 
-     state     since                    cpu    memory           disk         details
-#0   running   2016-10-16 08:37:52 PM   0.2%   116.9M of 512M   3.8M of 1G
+     state     since                    cpu    memory         disk         details
+#0   running   2017-01-25 08:58:25 AM   0.0%   114M of 512M   3.8M of 1G
 
 ----
 
