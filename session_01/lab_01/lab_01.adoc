@@ -151,45 +151,35 @@ env    started           1/1         512M     1G     env-unrecaptured-casaque.cf
 +
 Note the application name for next steps
 
-. Get information about running instances, memory, CPU, and other statistics using CLI instances command
-
+. Delete the deployed application using the CLI
 +
 ----
-> cf app env
+> cf delete env
 ----
 +
-
 You should see output similar to the following listing.
 +
 ====
 ----
-> cf app env
-Showing health and status for app env in org student-42 / space development as student-42...
+> cf delete env
+Really delete the app env?> yes
+Deleting app env in org student-42 / space development as student-42...
 OK
 
-requested state: started
-instances: 1/1
-usage: 512M x 1 instances
-urls: env-unrecaptured-casaque.cfapps.haas-65.pez.pivotal.io
-last uploaded: Wed Jan 25 12:31:38 UTC 2017
-stack: windows2012R2
-buildpack: binary_buildpack
 
-     state     since                    cpu    memory           disk         details
-#0   running   2017-01-25 07:31:57 AM   0.8%   111.6M of 512M   3.8M of 1G
-
-. Stop the deployed application using the CLI
+. Delete the deployed application using the CLI
 +
 ----
-> cf stop env
+> cf delete env
 ----
 +
 You should see output similar to the following listing.
 +
 ====
 ----
-> cf stop env
-Stopping app env in org student-42 / space development as student-42...
+> cf delete env
+Really delete the app env?> yes
+Deleting app env in org student-42 / space development as student-42...
 OK
 
 . Delete the deployed application using the CLI
