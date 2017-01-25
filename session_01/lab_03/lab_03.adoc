@@ -12,7 +12,7 @@ In the next two labs we'll explore Pivotal Cloud Foundry operations.
 +
 ----
 > cf scale env -i 3
-Scaling app env in org instructor / space development as admin...
+Scaling app env in org student-42 / space development as student-42...
 OK
 
 ----
@@ -24,48 +24,27 @@ In reporting `OK`, the CLI is letting you know that the additional requested ins
 ====
 ----
 > cf app env
-Showing health and status for app env in org instructor / space development as admin...
+Showing health and status for app env in org student-42 / space development as student-42...
 OK
 
 requested state: started
 instances: 3/3
 usage: 512M x 3 instances
-urls: env-grumous-imperativeness.cfapps.haas-76.pez.pivotal.io
-last uploaded: Mon Oct 17 00:13:08 UTC 2016
+urls: env-patellate-catatonia.cfapps.haas-65.pez.pivotal.io
+last uploaded: Wed Jan 25 13:39:36 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
 
-     state      since                    cpu    memory           disk         details
-#0   running    2016-10-16 08:37:52 PM   0.2%   113.4M of 512M   3.8M of 1G
-#1   starting   2016-10-16 08:53:26 PM   0.2%   110.2M of 512M   3.8M of 1G
-#2   starting   2016-10-16 08:53:26 PM   0.2%   111.6M of 512M   3.8M of 1G
+     state     since                    cpu    memory           disk         details
+#0   running   2017-01-25 08:58:25 AM   0.0%   115.5M of 512M   3.8M of 1G
+#1   running   2017-01-25 03:14:02 PM   0.0%   108.6M of 512M   3.8M of 1G
+#2   running   2017-01-25 03:14:02 PM   0.0%   108.6M of 512M   3.8M of 1G
 >
 ----
 <1> This application instance has completed the startup process and is actually able to accept requests.
 <2> This application instance is still starting and will not have any requests routed to it.
 ====
 
-. Eventually all instances will converge to a running state:
-+
-----
-> cf app env
-Showing health and status for app env in org instructor / space development as admin...
-OK
-
-requested state: started
-instances: 3/3
-usage: 512M x 3 instances
-urls: env-grumous-imperativeness.cfapps.haas-76.pez.pivotal.io
-last uploaded: Mon Oct 17 00:13:08 UTC 2016
-stack: windows2012R2
-buildpack: binary_buildpack
-
-     state     since                    cpu    memory           disk         details
-#0   running   2016-10-16 08:37:52 PM   0.2%   113.4M of 512M   3.8M of 1G
-#1   running   2016-10-16 08:52:16 PM   0.0%   110.1M of 512M   3.8M of 1G
-#2   running   2016-10-16 08:52:17 PM   0.0%   111.5M of 512M   3.8M of 1G
-
-----
 
 . Revisit the application route in the browser.
 Refresh several times.
