@@ -41,8 +41,6 @@ buildpack: binary_buildpack
 #2   running   2017-01-25 03:14:02 PM   0.0%   108.6M of 512M   3.8M of 1G
 >
 ----
-<1> This application instance has completed the startup process and is actually able to accept requests.
-<2> This application instance is still starting and will not have any requests routed to it.
 ====
 
 
@@ -53,7 +51,7 @@ You should observe the instance index changing as you do so:
 image::../../Common/images/lab-scale-up.png[]
 +
 The aforementioned https://docs.pivotal.io/pivotalcf/1-7/concepts/architecture/router.html[(Go)Router] is applying a random routing algorithm to all of the application instances assigned to this route.
-As an instance reaches the `running` state, its https://docs.pivotal.io/pivotalcf/1-8/concepts/diego/diego-architecture.html#architecture[Diego] Cell registers that instance in the routing table assigned to its route by sending a message to Cloud Foundry's message bus.
+As an instance reaches the `running` state, its https://docs.pivotal.io/pivotalcf/1-9/concepts/diego/diego-architecture.html#architecture[Diego] Cell registers that instance in the routing table assigned to its route by sending a message to Cloud Foundry's message bus.
 All (Go)Router instances are subscribed to this channel and register the routes independently.
 This makes for very dynamic and rapid reconfiguration!
 
@@ -63,7 +61,7 @@ This makes for very dynamic and rapid reconfiguration!
 +
 ----
 > cf scale env -i 1
-Scaling app env in org instructor / space development as admin...
+Scaling app env in org student-42 / space development as student-42...
 OK
 
 ----
@@ -72,19 +70,19 @@ OK
 +
 ----
 > cf app env
-Showing health and status for app env in org instructor / space development as admin...
+Showing health and status for app env in org student-42 / space development as student-42...
 OK
 
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: env-grumous-imperativeness.cfapps.haas-76.pez.pivotal.io
-last uploaded: Mon Oct 17 00:13:08 UTC 2016
+urls: env-patellate-catatonia.cfapps.haas-65.pez.pivotal.io
+last uploaded: Wed Jan 25 13:39:36 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
 
-     state     since                    cpu    memory           disk         details
-#0   running   2016-10-16 08:37:52 PM   0.0%   113.8M of 512M   3.8M of 1G
+     state     since                    cpu    memory         disk         details
+#0   running   2017-01-25 08:58:25 AM   0.4%   114M of 512M   3.8M of 1G
 
 ----
 +
