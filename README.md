@@ -2,8 +2,8 @@
 Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 
 ## Instructors
-- Jaime Aguilar, Senior Platform Architect, jaguilar@pivotal.io
-- Saurabh Gupta, Advisory Platform Architect, sgupta@pivotal.io
+- Parag Doshi, Senior Platform Architect, pdoshi@pivotal.io
+- Brian Jimerson, Advisory Platform Architect, bjimerson@pivotal.io
 
 ## Agenda
 
@@ -33,7 +33,7 @@ This is a _loose_ schedule for the day. We will adjust as necessary based on our
 Start by downloading the course materials.  This can be accomplished either through the GitHub website or if you have Git installed, use the following commands:
 
 ```
-$ git clone https://github.com/jaimegag/CloudNativeWorkshop_DotNet
+$ git clone https://github.com/git-paragdoshi/CloudNativeWorkshop_DotNet
 $ cd CloudNativeWorkshop_DotNet/
 $ git fetch --all
 ```
