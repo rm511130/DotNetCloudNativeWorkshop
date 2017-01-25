@@ -23,21 +23,21 @@ Follow the prompts, choosing the (student-X) username assigned to you by the ins
 > cf login
 API endpoint: https://api.run.haas-65.pez.pivotal.io
 
-Email> student-1
+Email> student-42
 
 Password>
 Authenticating...
 OK
 
-Targeted org student-1
+Targeted org student-42
 
 Targeted space development
 
 
 
-API endpoint:   https://api.run.haas-65.pez.pivotal.io (API version: 6.23.0)
-User:           student-1
-Org:            student-1
+API endpoint:   https://api.run.haas-65.pez.pivotal.io (API version: 2.58.0)
+User:           student-42
+Org:            student-42
 Space:          development
 
 ----
