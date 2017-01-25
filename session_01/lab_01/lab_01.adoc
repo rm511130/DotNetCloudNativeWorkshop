@@ -136,6 +136,7 @@ image::../../Common/images/lab-net.png[]
 +
 ----
 > cf apps
+is this grey too?
 ----
 +
 You should see output similar to the following listing.
