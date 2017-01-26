@@ -141,14 +141,4 @@ Note the application name for next steps
 > cf app wsattendees
 ----
 
-. Stop the deployed application using the CLI
-+
-----
-> cf stop wsattendees
-----
 
-. Delete the deployed application using the CLI
-+
-----
-> cf delete wsattendees
-----
