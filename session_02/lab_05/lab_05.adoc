@@ -59,40 +59,40 @@ Using manifest file C:\Users\admin\Documents\Visual Studio 2015\Projects\MVCAtte
 
 Using stack windows2012R2...
 OK
-Updating app wsattendees in org instructor / space development as admin...
+Updating app wsattendees in org student-42 / space development as student-42...
 OK
 
-Using route wsattendees-jga.cfapps.haas-76.pez.pivotal.io
+Creating route wsattendees-student-42.cfapps.haas-65.pez.pivotal.io...
+OK
+
+Binding wsattendees-student-42.cfapps.haas-65.pez.pivotal.io to wsattendees...
+OK
+
 Uploading wsattendees...
-Uploading app files from: C:\Users\admin\Documents\Visual Studio 2015\Projects\MVCAttendees\PCFDeploy
-Uploading 940.5K, 62 files
+Uploading app files from: C:\temp\PCFPub
+Uploading 303.1K, 45 files
 Done uploading
 OK
 
-Stopping app wsattendees in org instructor / space development as admin...
-OK
-
-Starting app wsattendees in org instructor / space development as admin...
+Starting app wsattendees in org student-42 / space development as student-42...
 Downloading binary_buildpack...
 Downloaded binary_buildpack
 Creating container
 Successfully created container
 Downloading app package...
-Downloaded app package (7.8M)
-Downloading build artifacts cache...
-Downloaded build artifacts cache (148B)
+Downloaded app package (5.7M)
 Staging...
-Uploading droplet...
 Exit status 0
 Staging complete
 Uploading droplet, build artifacts cache...
 Uploading build artifacts cache...
-Uploaded build artifacts cache (169B)
-Uploaded droplet (7.7M)
+Uploading droplet...
+Uploaded build artifacts cache (87B)
+Uploaded droplet (5.7M)
 Uploading complete
+Destroying container
+Successfully destroyed container
 
-0 of 1 instances running, 1 starting
-0 of 1 instances running, 1 starting
 0 of 1 instances running, 1 starting
 0 of 1 instances running, 1 starting
 1 of 1 instances running
@@ -104,19 +104,19 @@ OK
 
 App wsattendees was started using this command `..\tmp\lifecycle\WebAppServer.exe`
 
-Showing health and status for app wsattendees in org instructor / space development as admin...
+Showing health and status for app wsattendees in org student-42 / space development as student-42...
 OK
 
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: wsattendees-jga.cfapps.haas-76.pez.pivotal.io
-last uploaded: Mon Oct 17 03:35:28 UTC 2016
+urls: wsattendees-student-42.cfapps.haas-65.pez.pivotal.io
+last uploaded: Thu Jan 26 17:23:25 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
 
-     state     since                    cpu    memory         disk          details
-#0   running   2016-10-16 11:36:33 PM   0.0%   292M of 512M   25.3M of 1G
+     state     since                    cpu    memory           disk          details
+#0   running   2017-01-26 05:23:53 PM   0.0%   174.5M of 512M   18.5M of 1G
 
 ----
 ====
