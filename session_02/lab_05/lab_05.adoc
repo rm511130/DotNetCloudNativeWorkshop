@@ -69,7 +69,7 @@ Binding wsattendees-student-42.cfapps.haas-65.pez.pivotal.io to wsattendees...
 OK
 
 Uploading wsattendees...
-Uploading app files from: C:\temp\PCFPub
+Uploading app files from: C:\Users\admin\Documents\Visual Studio 2015\Projects\MVCAttendees\PCFDeploy
 Uploading 303.1K, 45 files
 Done uploading
 OK
