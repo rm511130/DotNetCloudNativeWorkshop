@@ -98,34 +98,37 @@ Using manifest file C:\Users\admin\Documents\Published\PCFDeploy\manifest.yml
 
 Using stack windows2012R2...
 OK
-Updating app wsattendees in org instructor / space development as admin...
+Creating app wsattendees in org student-42 / space development as student-42...
 OK
 
-Using route wsattendees-jga.cfapps.haas-76.pez.pivotal.io
+Using route wsattendees-student-42.cfapps.haas-65.pez.pivotal.io
+Binding wsattendees-student-42.cfapps.haas-65.pez.pivotal.io to wsattendees...
+OK
+
 Uploading wsattendees...
 Uploading app files from: C:\Users\admin\Documents\Published\PCFDeploy
-Uploading 722.3K, 45 files
+Uploading 303.7K, 46 files
 Done uploading
 OK
 
-Starting app wsattendees in org instructor / space development as admin...
+Starting app wsattendees in org student-42 / space development as student-42...
 Downloading binary_buildpack...
+Downloaded binary_buildpack
 Creating container
-Downloaded binary_buildpack (8.3K)
 Successfully created container
 Downloading app package...
-Downloaded app package (5.7M)
-Downloading build artifacts cache...
-Downloaded build artifacts cache (111B)
 Staging...
-Exit status 0
-Uploading build artifacts cache...
-Staging complete
+Downloaded app package (5.8M)
 Uploading droplet, build artifacts cache...
+Exit status 0
+Staging complete
+Uploading build artifacts cache...
 Uploading droplet...
-Uploaded build artifacts cache (130B)
-Uploaded droplet (5.7M)
+Uploaded build artifacts cache (88B)
+Uploaded droplet (5.8M)
 Uploading complete
+Destroying container
+Successfully destroyed container
 
 0 of 1 instances running, 1 starting
 0 of 1 instances running, 1 starting
@@ -139,20 +142,19 @@ OK
 
 App wsattendees was started using this command `..\tmp\lifecycle\WebAppServer.exe`
 
-Showing health and status for app wsattendees in org instructor / space development as admin...
+Showing health and status for app wsattendees in org student-42 / space development as student-42...
 OK
 
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: wsattendees-jga.cfapps.haas-76.pez.pivotal.io
-last uploaded: Tue Oct 18 18:57:27 UTC 2016
+urls: wsattendees-student-42.cfapps.haas-65.pez.pivotal.io
+last uploaded: Thu Jan 26 17:47:52 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
 
-     state     since                    cpu    memory         disk          details
-#0   running   2016-10-18 02:58:24 PM   0.0%   352M of 512M   19.8M of 1G
-
+     state     since                    cpu     memory         disk          details
+#0   running   2017-01-26 05:48:26 PM   88.8%   213M of 512M   19.6M of 1G
 ----
 
 6. From the console tail the logs of your application
@@ -165,10 +167,7 @@ buildpack: binary_buildpack
 8. After a few clicks go back to the command prompt where you were tailing your logs and you should now see APP log traces with the information you put in the code
 +
 ----
-2016-10-18T17:09:34.85-0400 [APP/0]      OUT 2016-10-18 14:09:34,853 INFO MVCAttendees2.Controllers.HomeController - Action Index has been fired.
-2016-10-18T17:09:53.28-0400 [RTR/0]      OUT wsattendees-jga.cfapps.haas-76.pez.pivotal.io - [18/10/2016:21:09:53.255 +0000] "GET / HTTP/1.1" 200 0 3103 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36" 10.193.145.250:51248 x_forwarded_for:"10.193.145.1" x_forwarded_proto:"http" vcap_request_id:7f250aca-c704-41d4-598c-b79ac163d9d1 response_time:0.028023432 app_id:194a50fc-e5f2-4389-b95a-1a4630b6375f
-2016-10-18T17:10:05.93-0400 [APP/0]      OUT 2016-10-18 14:10:05,935 INFO MVCAttendees2.Controllers.HomeController - Action Index has been fired.
-2016-10-18T17:10:08.09-0400 [RTR/0]      OUT wsattendees-jga.cfapps.haas-76.pez.pivotal.io - [18/10/2016:21:10:08.089 +0000] "GET / HTTP/1.1" 200 0 3103 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36" 10.193.145.250:51290 x_forwarded_for:"10.193.145.1" x_forwarded_proto:"http" vcap_request_id:1d13ed97-bcc2-45d4-6560-7872e8ba544f response_time:0.002827215 app_id:194a50fc-e5f2-4389-b95a-1a4630b6375f
-
+2017-01-26T17:49:52.62+0000 [APP/0]      OUT 2017-01-26 05:49:52,629 INFO PCFWorkshop1.Controllers.HomeController - Action Index has been fired.
+2017-01-26T17:51:05.87+0000 [RTR/0]      OUT wsattendees-student-42.cfapps.haas-65.pez.pivotal.io - [26/01/2017:17:51:05.844 +0000] "GET / HTTP/1.1" 200 0 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" 10.193.134.250:38742 10.193.134.3:52576 x_forwarded_for:"54.163.120.126" x_forwarded_proto:"https" vcap_request_id:a965dd23-1664-482f-4dad-e3268dcc6f5f response_time:0.030706087 app_id:ed7e0668-5ae5-4540-a74d-c294fd47d0d1 app_index:0
 ----
 
