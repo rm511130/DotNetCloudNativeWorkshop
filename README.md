@@ -30,9 +30,10 @@ Time | Session
           | Session 3: _Spring Cloud Netflix & SteelToe_
           | Lab 7: _Using Config Server from a .NET application_
 04:30 PM  | _Labs Review_
-04:45 PM  | Q&A + Wrap-up + Survey
+04:45 PM  | Q&A + Survey
+05:00 PM  | Wrap-up
 
-## Getting started https://github.com/rm511130/DotNetCloudNativeWorkshop
+## Getting started: https://github.com/rm511130/DotNetCloudNativeWorkshop
 
 **Prerequisites**
 - [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli)
