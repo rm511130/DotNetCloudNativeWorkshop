@@ -2,50 +2,54 @@
 
 == CF CLI Target and Login
 
-. Download the latest release of the Cloud Foundry CLI from https://console.run.pivotal.io/tools for your operating system and install it.
+. If you haven't installed the Cloud Foundry CLI yet you can download the latest release of the Cloud Foundry CLI from https://console.run.pivotal.io/tools for your operating system and install it.
 
 . From a command prompt, set the API target for the CLI: (set appropriate end point for your environment)
 +
 ----
-> cf api https://api.run.haas-65.pez.pivotal.io --skip-ssl-validation
+> cf api https://api.system.pcf4u.com --skip-ssl-validation
 ----
 
-. Login to Pivotal Cloud Foundry (use information from your instructor to log on to Pivotal Cloud Foundry):
+. Claim a user_id by entering your e-mail address in the following Google Spreadsheet: http://bit.ly/2lwyflB
+. Keep this Spreadsheet open to record your progress throughout the workshop
+
+. Login to Pivotal Cloud Foundry (in case of doubt ask an instructor for assistance):
+. 
 +
 ----
 > cf login
 ----
 +
-Follow the prompts, choosing the (student-X) username assigned to you by the instructor (password is keepitsimple).
+Follow the prompts, choosing the (user##) username you claimed (the password is password).
 +
 ====
 ----
 > cf login
-API endpoint: https://api.run.haas-65.pez.pivotal.io
+API endpoint: https://api.system.pcf4u.com
 
-Email> student-42
+Email> user42
 
-Password>
+Password> 
 Authenticating...
 OK
 
-Targeted org student-42
+Targeted org org42
 
 Targeted space development
 
 
 
-API endpoint:   https://api.run.haas-65.pez.pivotal.io (API version: 2.58.0)
-User:           student-42
-Org:            student-42
+API endpoint:   https://api.system.pcf4u.com (API version: 2.65.0)
+User:           user42
+Org:            org42
 Space:          development
 
 ----
 ====
 
-== AppsManager Login
+== AppsManager Login using (preferably) Google Chrome 
 
-. Login to Apps Manager URL: https://apps.run.haas-65.pez.pivotal.io. It will redirect you to the login screen. Use the same username and passowrd you entered when using the CF CLI
+. Login to Apps Manager URL: https://apps.system.pcf4u.com. It will redirect you to the login screen. Use the same username and passowrd you entered when using the CF CLI
 +
 image::../../Common/images/lab-student-login.png[]  
   
