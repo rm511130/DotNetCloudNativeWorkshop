@@ -57,4 +57,4 @@ image::../../Common/images/lab-student-login.png[]
 image::../../Common/images/lab-student-loggedin.png[]
 
 
-== Congratulations! You have completed Lab0 - Accessing the Workshop Environment
+. Congratulations! You have completed Lab0
