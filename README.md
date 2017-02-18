@@ -40,6 +40,7 @@ Time | Session
 - [Git Client](https://git-scm.com/downloads)
 - [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://www.visualstudio.com/downloads/)
 
+**Download Course Materials**
 Start by downloading the course materials.  This can be accomplished either through the GitHub website (https://github.com/rm511130/DotNetCloudNativeWorkshop) or if you have Git installed on your PC/Mac, use the following commands (Windows PowerShell/Mac Terminal):
 
 ```
