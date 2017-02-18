@@ -32,20 +32,20 @@ Time | Session
 04:30 PM  | _Labs Review_
 04:45 PM  | Q&A + Wrap-up + Survey
 
-## Getting started
+## Getting started https://github.com/rm511130/DotNetCloudNativeWorkshop
 
-Start by downloading the course materials.  This can be accomplished either through the GitHub website (https://github.com/rm511130/DotNetCloudNativeWorkshop) or if you have Git installed, use the following commands:
+**Prerequisites**
+- [Cloud Foundry CLI](https://github.com/cloudfoundry/cli)
+- [Git Client](https://git-scm.com/downloads)
+- [VisualStudio (min: Visual Studio 2015 Update 3)](https://www.visualstudio.com/downloads/)
+
+Start by downloading the course materials.  This can be accomplished either through the GitHub website or if you have Git installed, use the following commands:
 
 ```
 $ git clone https://github.com/rm511130/DotNetCloudNativeWorkshop
 $ cd DotNetCloudNativeWorkshop/
 $ git fetch --all
 ```
-
-**Prerequisites**
-- [Cloud Foundry CLI](https://github.com/cloudfoundry/cli)
-- [Git Client](https://git-scm.com/downloads)
-- [VisualStudio (min: Visual Studio 2015 Update 3)](https://www.visualstudio.com/downloads/)
 
 ## Course Materials
 
