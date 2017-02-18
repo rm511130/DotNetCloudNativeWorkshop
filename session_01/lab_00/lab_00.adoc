@@ -11,10 +11,10 @@
 ----
 
 . Claim a user_id by entering your e-mail address in the following Google Spreadsheet: http://bit.ly/2lwyflB
-. Keep this Spreadsheet open to record your progress throughout the workshop
+. Keep this spreadsheet http://bit.ly/2lwyflB open to record your progress throughout the workshop.
 
 . Login to Pivotal Cloud Foundry (in case of doubt ask an instructor for assistance):
-. 
+
 +
 ----
 > cf login
