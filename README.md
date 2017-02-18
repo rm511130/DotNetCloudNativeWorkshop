@@ -25,8 +25,8 @@ Time | Session
           | Session 2: _Cloud Native Design and Microservices_
           | Lab 5: _Deploying an ASP.NET MVC Application_
           | Lab 6: _Managing application logs from a .NET application_
-03:00     | _Break (15 mins)_
-03:15     | _Labs Review_
+03:00 PM  | _Break (15 mins)_
+03:15 PM  | _Labs Review_
           | Session 3: _Spring Cloud Netflix & SteelToe_
           | Lab 7: _Using Config Server from a .NET application_
 04:30 PM  | _Labs Review_
@@ -35,11 +35,11 @@ Time | Session
 ## Getting started https://github.com/rm511130/DotNetCloudNativeWorkshop
 
 **Prerequisites**
-- [Cloud Foundry CLI](https://github.com/cloudfoundry/cli)
+- [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli)
 - [Git Client](https://git-scm.com/downloads)
-- [VisualStudio (min: Visual Studio 2015 Update 3)](https://www.visualstudio.com/downloads/)
+- [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://www.visualstudio.com/downloads/)
 
-Start by downloading the course materials.  This can be accomplished either through the GitHub website or if you have Git installed, use the following commands:
+Start by downloading the course materials.  This can be accomplished either through the GitHub website (https://github.com/rm511130/DotNetCloudNativeWorkshop) or if you have Git installed on your PC/Mac, use the following commands:
 
 ```
 $ git clone https://github.com/rm511130/DotNetCloudNativeWorkshop
