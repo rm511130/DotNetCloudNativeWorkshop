@@ -2,7 +2,7 @@
 
 == CF CLI Target and Login
 
-. If you haven't installed the Cloud Foundry CLI yet you can download the latest release of the Cloud Foundry CLI from https://console.run.pivotal.io/tools for your operating system and install it.
+. If you haven't installed the Cloud Foundry CLI yet you can download the latest release of the Cloud Foundry CLI for your operating system from https://console.run.pivotal.io/tools and install it.
 
 . From a command prompt, set the API target for the CLI: (set appropriate end point for your environment)
 +
