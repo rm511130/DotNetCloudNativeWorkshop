@@ -49,7 +49,7 @@ Space:          development
 
 == AppsManager Login using (preferably) Google Chrome 
 
-. Login to Apps Manager URL: https://apps.system.pcf4u.com. It will redirect you to the login screen. Use the same username and passowrd you entered when using the CF CLI
+. Login to Apps Manager URL: https://apps.system.pcf4u.com. It will redirect you to the login screen. Use the same username and password you entered when using the CF CLI
 +
 image::../../Common/images/lab-student-login.png[]  
   
