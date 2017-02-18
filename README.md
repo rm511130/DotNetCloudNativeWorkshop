@@ -1,43 +1,43 @@
-# Cloud Native Workshop
+# .NET Cloud Native Workshop
 Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 
 ## Instructors
+- Ralph Meira, Senior Platform Architect, rmeira@pivotal.io
 - Parag Doshi, Senior Platform Architect, pdoshi@pivotal.io
+- Michael Timmers, Engagement Director, mtimmers@pivotal.io
 - Brian Jimerson, Advisory Platform Architect, bjimerson@pivotal.io
 
 ## Agenda
 
 Time | Session
 ---- | -------
-9:00 AM - 9:15 AM | Welcome and Introductions
-9:15 AM - 10:00 AM | Session 1: _Intro to Pivotal Cloud Foundry_
-10:00 AM - 10:15 AM | Lab 0: _Accessing the Workshop Environment_
-10:15 AM - 10:45 AM | Lab 1: _Pushing Your First Application_
-10:45 AM - 11:00 AM | _Break_
-11:00 AM - 11:15 AM | _Labs Review_
-11:15 AM - 11:30 AM | Lab 2: _Binding to Cloud Foundry Services_
-11:30 AM - 12:00 PM | Lab 3: _Scaling and Operating Applications_
-12:00 PM - 12:30 PM | Lab 4: _Monitoring Applications_
-12:30 PM - 1:15 PM  | _Lunch_
-1:15  PM - 1:30 PM  | _Labs Review_ 
-1:30 PM - 2:00 AM | Session 2: _Cloud Native Design and Microservices_
-2:00 PM - 2:30 PM | Lab 5: _Deploying an ASP.NET MVC Application_
-2:30 PM - 3:00 PM | Lab 6: _Managing application logs from a .NET application_
-3:00 PM - 3:15 PM | _Break_
-3:15 PM - 3:30 PM | _Labs Review_
-3:30 PM - 4:00 PM | Session 3: _Spring Cloud Netflix & SteelToe_
-4:00 PM - 4:30 PM | Lab 7: _Using Config Server from a .NET application_
-4:30 PM - 5:00 PM | Wrap-Up & Q&A
-
-This is a _loose_ schedule for the day. We will adjust as necessary based on our pace through the material.
+12:00 PM - 12:15 PM | Welcome and Introductions
+12:15 PM            | Session 1: _Intro to Pivotal Cloud Foundry_
+                    | Lab 0: _Accessing the Workshop Environment_
+                    | Lab 1: _Pushing Your First Application_
+01:00 PM - 01:15 PM | _Labs Review_
+01:15 PM            | Lab 2: _Binding to Cloud Foundry Services_
+                    | Lab 3: _Scaling and Operating Applications_
+                    | Lab 4: _Monitoring Applications_
+02:00 PM - 02:15 PM | _Break_
+02:15 PM - 02:30 PM | _Labs Review_ 
+02:30 PM            | Session 2: _Cloud Native Design and Microservices_
+                    | Lab 5: _Deploying an ASP.NET MVC Application_
+                    | Lab 6: _Managing application logs from a .NET application_
+03:00 PM - 03:15 PM | _Break_
+03:15 PM - 03:30 PM | _Labs Review_
+03:30 PM            | Session 3: _Spring Cloud Netflix & SteelToe_
+                    | Lab 7: _Using Config Server from a .NET application_
+04:30 PM - 04:45 PM | _Labs Review_
+04:45 PM - 05:00 PM | Q&A + Wrap-up + Survey
 
 ## Getting started
 
 Start by downloading the course materials.  This can be accomplished either through the GitHub website or if you have Git installed, use the following commands:
 
 ```
-$ git clone https://github.com/git-paragdoshi/CloudNativeWorkshop_DotNet
-$ cd CloudNativeWorkshop_DotNet/
+$ git clone https://github.com/rm511130/DotNetCloudNativeWorkshop
+$ cd DotNetCloudNativeWorkshop/
 $ git fetch --all
 ```
 
