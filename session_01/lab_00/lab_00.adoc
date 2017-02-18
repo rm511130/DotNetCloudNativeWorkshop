@@ -58,5 +58,5 @@ image::../../Common/images/lab-student-loggedin.png[]
 
 
 == Congratulations! You have completed Lab0
-
-- [Next: Lab 1 - Pushing Your First Application](session_01/lab_01/lab_01.adoc)
+#### Session 1 [(Slides)](session_01/Session_01.pdf): _Intro to Pivotal Cloud Foundry_
+- [Lab 1 - Pushing Your First Application](session_01/lab_01/lab_01.adoc)
