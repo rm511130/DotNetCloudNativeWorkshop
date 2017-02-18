@@ -43,6 +43,7 @@ Time | Session
 Start by downloading the course materials.  This can be accomplished either through the GitHub website (https://github.com/rm511130/DotNetCloudNativeWorkshop) or if you have Git installed on your PC/Mac, use the following commands:
 
 ```
+$ cd /work   <-- Choose or create (mkdir) a directory for your workshop
 $ git clone https://github.com/rm511130/DotNetCloudNativeWorkshop
 $ cd DotNetCloudNativeWorkshop/
 $ git fetch --all
