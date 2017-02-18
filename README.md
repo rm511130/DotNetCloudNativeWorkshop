@@ -34,7 +34,7 @@ Time | Session
 
 ## Getting started
 
-Start by downloading the course materials.  This can be accomplished either through the GitHub website or if you have Git installed, use the following commands:
+Start by downloading the course materials.  This can be accomplished either through the GitHub website (https://github.com/rm511130/DotNetCloudNativeWorkshop) or if you have Git installed, use the following commands:
 
 ```
 $ git clone https://github.com/rm511130/DotNetCloudNativeWorkshop
