@@ -42,7 +42,7 @@ Time | Session
 
 **Download Course Material**
 
-You can download the course material from the GitHub website (https://github.com/rm511130/DotNetCloudNativeWorkshop) or if you have Git installed on your PC/Mac, use the following commands (Windows PowerShell/Mac Terminal):
+You can download the course material from the GitHub website (https://github.com/rm511130/DotNetCloudNativeWorkshop) or if you have Git installed, use the following commands:
 
 ```
 $ cd /work   <-- Choose or create (mkdir) a directory for your workshop material
