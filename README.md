@@ -39,7 +39,7 @@ Time | Session
 - [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli)
 - [Git Client](https://git-scm.com/downloads)
 - [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://www.visualstudio.com/downloads/)
-- [Access to UserID and Workshop Progress shared Spreadsheet](https://bit.ly/url)
+- [Access to UserID and Workshop Progress shared Spreadsheet](http://bit.ly/2lwyflB)
 
 Note: Labs should be executed in order (from Lab 0 to Lab 7)
 
