@@ -76,13 +76,13 @@ OK
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: env-patellate-catatonia.cfapps.haas-65.pez.pivotal.io
-last uploaded: Wed Jan 25 13:39:36 UTC 2017
+urls: env-farraginous-thunderclap.apps.pcf4u.com
+last uploaded: Sun Feb 19 18:18:32 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
 
-     state     since                    cpu    memory         disk         details
-#0   running   2017-01-25 08:58:25 AM   0.4%   114M of 512M   3.8M of 1G
+     state     since                    cpu    memory      disk      details
+#0   running   2017-02-19 01:23:28 PM   0.0%   0 of 512M   0 of 1G
 
 ----
 +
