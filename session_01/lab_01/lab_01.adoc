@@ -2,7 +2,7 @@
 
 [abstract]
 --
-In this lab we will push a .NET web application to cloud foundry.
+In this lab we will push a .NET web application to cloud foundry using the CF CLI:
 --
 
 == Download code
