@@ -205,5 +205,5 @@ Deleting app env in org student-42 / space development as student-42...
 OK
 ----
 +
-----
+.
 == Congratulations. You have completed Lab 1 by pushing Your First .NET Application to Cloud Foundry
