@@ -7,7 +7,7 @@ In this lab we will push a .NET web application to cloud foundry using the CF CL
 
 == Download code
 
-. Download and clone the following git repo: https://github.com/Pivotal-Field-Engineering/pcf-dotnet-environment-viewer
+. Clone the following git repo: https://github.com/Pivotal-Field-Engineering/pcf-dotnet-environment-viewer
 +
 ----
 > cd /work
