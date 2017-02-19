@@ -20,28 +20,28 @@
 > cf login
 ----
 +
-Follow the prompts, choosing the (user##) username you claimed (the password is password).
+Follow the prompts, choosing the (student-##) username you claimed (the password is password).
 +
 ====
 ----
 > cf login
 API endpoint: https://api.system.pcf4u.com
 
-Email> user42
+Email> student-42
 
 Password> 
 Authenticating...
 OK
 
-Targeted org org42
+Targeted org org-42
 
 Targeted space development
 
 
 
 API endpoint:   https://api.system.pcf4u.com (API version: 2.65.0)
-User:           user42
-Org:            org42
+User:           student-42
+Org:            org-42
 Space:          development
 
 ----
