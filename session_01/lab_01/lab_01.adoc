@@ -2,7 +2,7 @@
 
 [abstract]
 --
-In this lab we will push a .NET web application to cloud foundry using the CF CLI. You must have completed Lab 0 successfully in order to proceed with Lab 1. After completing this Lab, you should download and review this 7-minute 2.4Mb  https://drive.google.com/file/d/0ByxgLleYUMD0bnJSQjNsXzN5Q0k/view?usp=sharing[video] to see how Visual Studio 2015 can be used to achieve the same results.
+In this lab we will push a .NET web application to cloud foundry using the CF CLI. After completing this Lab, you should download and review this 7-minute 2.4Mb  https://drive.google.com/file/d/0ByxgLleYUMD0bnJSQjNsXzN5Q0k/view?usp=sharing[video] to see how Visual Studio 2015 can be used to achieve the same results. Please note that you must have completed Lab 0 successfully in order to proceed with Lab 1.
 --
 
 == Download code
