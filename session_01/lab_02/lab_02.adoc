@@ -14,7 +14,7 @@ Bind/Unbind:: These operations create or delete unique credential sets for an ex
 
 == A Bit of Review
 
-Your instance of the sample _env_ should not be running after the steps completed in lab 1.  Make sure to change to the _ViewEnvironment_ sample application directory.  For this lab we will be using the .NET application.  Deploy the application:
+Your instance of the sample _env_ is probably not running if you completed all the steps in lab 1.  Make sure to change to the _ViewEnvironment_ sample application directory as you did during Lab 1. We will push the same .NET application application once more.  To deploy the application:
 
 ----
 > cf push
@@ -36,7 +36,7 @@ The first is available on any instance of Cloud Foundry: the CLI. Just type:
 and you'll get a list of services, their available plans, and descriptions. On Pivotal Cloudfoundry, the ``free'' tier of plans is normally the first one listed.
 
 The second way is specific to Pivotal Cloudfoundry's Apps Manager UI.
-If you haven't already, login to it by visiting https://apps.run.haas-65.pez.pivotal.io
+If you haven't already, login to it by visiting https://apps.system.pcf4u.com
 
 Click on the ''Marketplace'' link:
 
@@ -54,7 +54,7 @@ In the drop-down list next to _Bind to App_ select your workshop application.
 +
 image::../../Common/images/lab-mysql.png[]
 
-. Notice the admonition to `Use 'cf restage' to ensure your env variable changes take effect`. Now let's _restage_ the application, which cycles our application back through the staging/buildpack process before redeploying the application.footnote:[In this case, we could accomplish the same goal by only _restarting_ the application via `cf restart env`.
+. Notice the instruction to `Use 'cf restage' to ensure your env variable changes take effect`. Now let's _restage_ the application, which cycles our application back through the staging/buildpack process before redeploying the application.footnote:[In this case, we could accomplish the same goal by only _restarting_ the application via `cf restart env`.
 A _restage_ is generally recommended because Cloud Foundry buildpacks also have access to injected environment variables and can install or configure things differently based on their values.]
 +
 ----
@@ -111,3 +111,6 @@ image::../../Common/images/lab-app-db.png[]
 +
 
 You should now see the service created in step 1 listed and your application listed as a bound app.
+
+Congratulations. You have completed Lab 2.
+
