@@ -45,7 +45,7 @@ Note: Labs should be executed in order (from Lab 0 to Lab 7)
 
 **Download Course Material**
 
-You can download the course material from this GitHub website or if you have Git installed, use the following commands:
+You can download the course material from this GitHub website in .zip format, but make sure to install Git, and use the following commands:
 
 ```
 $ cd /work   <-- Choose or create (mkdir) a directory for your workshop material
