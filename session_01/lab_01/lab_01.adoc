@@ -53,7 +53,7 @@ applications:
 > cf push
 ----
 +
-You should see output similar to the following listing. Take a look at the listing callouts for a play-by-play of what's happening:
+You should see output similar to the following log.
 +
 ====
 ----
