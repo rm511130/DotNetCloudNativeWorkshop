@@ -29,7 +29,7 @@ API endpoint: https://api.system.pcf4u.com
 
 Email> student-42
 
-Password> 
+Password> password          <--- the password will not be displayed when you type it
 Authenticating...
 OK
 
