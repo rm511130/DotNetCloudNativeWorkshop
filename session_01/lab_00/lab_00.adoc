@@ -33,7 +33,7 @@ Password>
 Authenticating...
 OK
 
-Targeted org org-42
+Targeted org student-42
 
 Targeted space development
 
@@ -41,7 +41,7 @@ Targeted space development
 
 API endpoint:   https://api.system.pcf4u.com (API version: 2.65.0)
 User:           student-42
-Org:            org-42
+Org:            student-42
 Space:          development
 
 ----
