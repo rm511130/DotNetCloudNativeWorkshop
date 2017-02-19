@@ -33,7 +33,7 @@ Time | Session
 04:45 PM  | Q&A + Survey
 05:00 PM  | Wrap-up
 
-## Getting started: https://github.com/rm511130/DotNetCloudNativeWorkshop
+## Getting started:
 
 **Prerequisites**
 - [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli)
