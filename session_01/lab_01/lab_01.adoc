@@ -16,7 +16,7 @@ In this lab we will push a .NET web application to cloud foundry using the CF CL
 
 == Target
 
-. If you haven't already, set the API target for the CLI: (set appropriate end point for your environment)
+. If you haven't already, set the API target for the CLI, please set the appropriate end point for your environment using the cf api command as shown here:
 +
 ----
 > cf api api.system.pcf4u.com --skip-ssl-validation
@@ -205,5 +205,5 @@ Deleting app env in org student-42 / space development as student-42...
 OK
 ----
 +
-
+----
 == Congratulations. You have completed Lab 1 by pushing Your First .NET Application to Cloud Foundry
