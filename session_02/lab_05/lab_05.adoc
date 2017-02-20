@@ -24,7 +24,7 @@ In this lab we will push an ASP.NET MVC web application to cloud foundry.
 ... Check Delete all existing files prior to publish
 ... Check Precompile during publishing
 . Create a PCF Manifest file
-.. Create a manfest.yml file in the Publish Target Location
+.. Create a manifest.yml file in the Publish Target Location
 .. Change the section <your initials> to use your own initials
 ```
 ---
