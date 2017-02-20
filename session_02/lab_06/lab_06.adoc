@@ -12,7 +12,7 @@ In this lab we will continue adding on to our Attendees ASP.NET application by u
 1. Right click on the Project name and select Manage NuGet Packages
 2. Click the browse link 
 3. Search for log4net
-4. Select the log4net by Apache Software Foundation (v2.0.5) and click the Install Button. 
+4. Select the log4net by Apache Software Foundation (v2.0.7) and click the Install Button. 
     a. Click Ok to accept the Changes and confirm the packages is marked as installed (green tick)
 +
 image::../../Common/images/lab-log4net-nuget.png[]
