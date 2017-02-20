@@ -1,4 +1,4 @@
-# .NET Cloud Native Workshop  (http://tinyurl.com/CAH20FEB17)
+# .NET Cloud Native Workshop  http://tinyurl.com/CAH20FEB17
 Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 
 ## Instructors
