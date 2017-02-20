@@ -71,3 +71,7 @@ $ git fetch --all
 
 #### Session 3 [(Slides)](session_03/Session_03.pdf): _Spring Cloud Netflix & SteelToe_
   - [Lab 7 - Using Config Server from a .NET application](session_03/lab_07/lab_07.adoc)
+  
+#### Survey 
+  - https://docs.google.com/forms/d/e/1FAIpQLSfGB5jSnGX6qCWSQ_m17fVGKwulFWx_4Nww933OK24mccyuYA/viewform?usp=send_form
+  
