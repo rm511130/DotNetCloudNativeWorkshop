@@ -68,7 +68,7 @@ image::../../Common/images/lab-log4net-nuget.png[]
 2. If you haven't already, set the API target for the CLI: (set appropriate end point for your environment)
 +
 ----
-> cf api https://api.run.haas-76.pez.pivotal.io --skip-ssl-validation
+> cf api https://api.system.pcf4u.com --skip-ssl-validation
 ----
 and login to Pivotal Cloudfoundry:
 +
@@ -101,8 +101,8 @@ OK
 Creating app wsattendees in org student-42 / space development as student-42...
 OK
 
-Using route wsattendees-student-42.cfapps.haas-65.pez.pivotal.io
-Binding wsattendees-student-42.cfapps.haas-65.pez.pivotal.io to wsattendees...
+Using route wsattendees-student-42.apps.pcf4u.com
+Binding wsattendees-student-42.apps.pcf4u.com to wsattendees...
 OK
 
 Uploading wsattendees...
@@ -148,7 +148,7 @@ OK
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: wsattendees-student-42.cfapps.haas-65.pez.pivotal.io
+urls: wsattendees-student-42.apps.pcf4u.com
 last uploaded: Thu Jan 26 17:47:52 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
@@ -168,6 +168,6 @@ buildpack: binary_buildpack
 +
 ----
 2017-01-26T17:49:52.62+0000 [APP/0]      OUT 2017-01-26 05:49:52,629 INFO PCFWorkshop1.Controllers.HomeController - Action Index has been fired.
-2017-01-26T17:51:05.87+0000 [RTR/0]      OUT wsattendees-student-42.cfapps.haas-65.pez.pivotal.io - [26/01/2017:17:51:05.844 +0000] "GET / HTTP/1.1" 200 0 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" 10.193.134.250:38742 10.193.134.3:52576 x_forwarded_for:"54.163.120.126" x_forwarded_proto:"https" vcap_request_id:a965dd23-1664-482f-4dad-e3268dcc6f5f response_time:0.030706087 app_id:ed7e0668-5ae5-4540-a74d-c294fd47d0d1 app_index:0
+2017-01-26T17:51:05.87+0000 [RTR/0]      OUT wsattendees-student-42.apps.pcf4u.com - [26/01/2017:17:51:05.844 +0000] "GET / HTTP/1.1" 200 0 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" 10.193.134.250:38742 10.193.134.3:52576 x_forwarded_for:"54.163.120.126" x_forwarded_proto:"https" vcap_request_id:a965dd23-1664-482f-4dad-e3268dcc6f5f response_time:0.030706087 app_id:ed7e0668-5ae5-4540-a74d-c294fd47d0d1 app_index:0
 ----
 
