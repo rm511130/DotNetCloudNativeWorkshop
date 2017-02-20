@@ -5,7 +5,6 @@ Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 - Ralph Meira, Senior Platform Architect, rmeira@pivotal.io
 - Parag Doshi, Senior Platform Architect, pdoshi@pivotal.io
 - Michael Timmers, Engagement Director, mtimmers@pivotal.io
-- Brian Jimerson, Advisory Platform Architect, bjimerson@pivotal.io
 
 ## Agenda
 
