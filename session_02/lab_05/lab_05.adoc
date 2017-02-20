@@ -62,10 +62,10 @@ OK
 Updating app wsattendees in org student-42 / space development as student-42...
 OK
 
-Creating route wsattendees-student-42.cfapps.haas-65.pez.pivotal.io...
+Creating route wsattendees-student-42.apps.pcf4u.com...
 OK
 
-Binding wsattendees-student-42.cfapps.haas-65.pez.pivotal.io to wsattendees...
+Binding wsattendees-student-42.apps.pcf4u.com to wsattendees...
 OK
 
 Uploading wsattendees...
@@ -110,7 +110,7 @@ OK
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: wsattendees-student-42.cfapps.haas-65.pez.pivotal.io
+urls: wsattendees-student-42.apps.pcf4u.com
 last uploaded: Thu Jan 26 17:23:25 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
