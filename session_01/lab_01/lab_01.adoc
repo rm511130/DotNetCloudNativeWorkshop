@@ -35,7 +35,8 @@ Follow the prompts.
 +
 ----
 > cd pcf-dotnet-environment-viewer/ViewEnvironment
-> cat manifest.yml
+> cat manifest.yml   <-- for Linux / Mac
+> type manifest.yml   <-- for PC/Win 
 
 ---
 applications:
