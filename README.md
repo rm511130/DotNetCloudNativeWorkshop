@@ -78,5 +78,5 @@ $ git fetch --all
   - [Lab 7 - Using Config Server from a .NET application](session_03/lab_07/lab_07.adoc)
   
 #### Survey 
-  - https://docs.google.com/forms/d/e/1FAIpQLSfGB5jSnGX6qCWSQ_m17fVGKwulFWx_4Nww933OK24mccyuYA/viewform?usp=send_form
+  - https://drive.google.com/open?id=1QQp8R-9MZzkerVq0OhhZmpEt1nXr7YGhMNUImYliHus
   
