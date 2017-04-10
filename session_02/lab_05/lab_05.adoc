@@ -10,7 +10,7 @@ In this lab we will push an ASP.NET MVC web application to cloud foundry.
 . Open Visual Studio and create a new ASP.NET Web Application with the name MVCAttendees
 .. Choose MVC as the Template
 .. Change the Authentication to No Authentication
-. Run it locally to verify that the application works locally
+. Run it locally to verify that the application works
 
 == Publish the Application
 
