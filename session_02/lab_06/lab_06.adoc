@@ -22,6 +22,7 @@ image::../../Common/images/lab-log4net-nuget.png[]
 $ cd /work   <-- Choose or create (mkdir) a directory for your workshop material
 $ git clone https://github.com/ddieruf/cloudfoundry-dotnet-4_x-microservice
 $ cd cloudfoundry-dotnet-4_x-microservice/
+<note: please edit the manifest.yml file to point to a unique name>
 $ cf push
 ```
 === (Optional) Instructions for manual editing and addition of Log4Net
