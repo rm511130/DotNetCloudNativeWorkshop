@@ -94,7 +94,7 @@ image::../../Common/images/lab-scale-down.png[]
 
 == HTTP Routing
 
-There are two ways to discover what routes, or HTTP URLs, are ampped to an application
+There are two ways to discover what routes, or HTTP URLs, are appended to an application
 The first is available via the CLI. Just type:
 
 ----
