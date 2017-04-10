@@ -39,6 +39,8 @@ Please make sure you have installed the following software on your local machine
 - [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli#downloads)
 - [Git Client](https://git-scm.com/downloads)
 - [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://www.visualstudio.com/downloads/)
+
+Please access the following on-line spreadsheet to claim a UserID and to track your Workshop Progress:
 - [Access to UserID and Workshop Progress shared Spreadsheet](https://docs.google.com/spreadsheets/d/1fA56dZ28tu0-eY3nRA8OYK5aUKsJ_4c_bneRUZW23oE/edit?usp=sharing)
 
 Note: Labs should be executed in order (from Lab 0 to Lab 7)
