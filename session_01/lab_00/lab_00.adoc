@@ -37,8 +37,6 @@ Targeted org student-42
 
 Targeted space development
 
-
-
 API endpoint:   https://api.run.haas-64.pez.pivotal.io (API version: 2.65.0)
 User:           student-42
 Org:            student-42
