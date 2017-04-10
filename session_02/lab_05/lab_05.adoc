@@ -14,7 +14,7 @@ In this lab we will push an ASP.NET MVC web application to cloud foundry.
 
 == Publish the Application using Cloud Foundry Extensions for Visual Studio
 
-. Download [Cloud Foundry Extensions for Visual Studio](https://marketplace.visualstudio.com/items?itemName=HelionCloudFoundry.CloudFoundryExtensionsforVisualStudio)
+- [Download Cloud Foundry Extensions for Visual Studio](https://marketplace.visualstudio.com/items?itemName=HelionCloudFoundry.CloudFoundryExtensionsforVisualStudio)
 
 == Publish the Application using Visual Studio's Publish to File System method
 
