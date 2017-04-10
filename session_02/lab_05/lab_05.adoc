@@ -21,6 +21,10 @@ In this lab we will push an ASP.NET MVC web application to cloud foundry.
 
 image::../../Common/images/VS_CF_Extensions.png[]
 
+. Visual Studio > Solution Explorer > Right-click on Project > Manage NuGet Packages per example shown below:
+
+image::../../Common/images/cf-msbuild-nuget.png[]
+
 == Publish the Application using Visual Studio's Publish to File System method
 
 . Right click on the project name and select Publish...
