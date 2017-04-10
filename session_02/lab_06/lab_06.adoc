@@ -17,8 +17,7 @@ In this lab we will continue adding on to our Attendees ASP.NET application by u
 +
 image::../../Common/images/lab-log4net-nuget.png[]
 +
-5. You now have the option to manually edit files to add log4net to your application, or you can simply:
-
+5. You now have the option to manually edit files to add log4net to your application by following the instructions of Step 6 onwards, or you can simply clone this git repository and inspect the changes:
 ```
 $ cd /work   <-- Choose or create (mkdir) a directory for your workshop material
 $ git clone https://github.com/ddieruf/cloudfoundry-dotnet-4_x-microservice
