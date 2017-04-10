@@ -32,11 +32,11 @@ image::../../Common/images/Publish_to_CloudFoundry.png[]
 . Publish to Cloud Foundry Wizard:
 +
 image::../../Common/images/Publish_to_CF_Detailed_Screens.png[]
-. Use Apps Manager (https://apps.run.haas-64.pez.pivotal.io) to validate the successfu deployment of your App
+. Use Apps Manager (https://apps.run.haas-64.pez.pivotal.io) to validate the successful deployment of your App:
 +
 image::../../Common/images/Check_Using_Apps_Manager.png[]
 
-== Publish the Application using Visual Studio's Publish to File System method
+== (Alternative Method) Publish the Application using Visual Studio's Publish-to-FileSystem method
 
 . Right click on the project name and select Publish...
 . Choose a Custom publish target. 
