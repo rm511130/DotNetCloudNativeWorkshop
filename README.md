@@ -1,4 +1,4 @@
-# .NET Cloud Native Workshop - April 10th 2017 - http://bit.ly/2nZ7wff
+# .NET Cloud Native Workshop - April 10th 2017  http://bit.ly/2nZ7wff
 Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 
 ## Instructors
