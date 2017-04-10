@@ -35,12 +35,15 @@ Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 
 **Prerequisites**
 
-Please make sure you have installed the following software on your local machine:
+(1) Please make sure you have installed the following software on your local machine:
 - [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli#downloads)
 - [Git Client](https://git-scm.com/downloads)
 - [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://www.visualstudio.com/downloads/)
 
-Please access the following on-line spreadsheet to claim a UserID and to track your Workshop Progress:
+(2) If your are unable to install the software listed above in a timely manner, one of the instructors will be able to give you access to an existing Windows2012R2 system that is configured and ready to be used. You will however need to access this system using RDP (Remote Desktop)
+- [Windows Remote Desktop](https://technet.microsoft.com/en-us/library/dn473009(v=ws.11).aspx)
+
+(3) Please access the following on-line spreadsheet to claim a UserID and to track your Workshop Progress:
 - [Access to UserID and Workshop Progress shared Spreadsheet](https://docs.google.com/spreadsheets/d/1fA56dZ28tu0-eY3nRA8OYK5aUKsJ_4c_bneRUZW23oE/edit?usp=sharing)
 
 Note: Labs should be executed in order (from Lab 0 to Lab 7)
