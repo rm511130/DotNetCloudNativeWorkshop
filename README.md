@@ -1,4 +1,4 @@
-# .NET Cloud Native Workshop  http://tinyurl.com/CAH20FEB17
+# .NET Cloud Native Workshop - April 10th 2017
 Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 
 ## Instructors
@@ -37,7 +37,7 @@ Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 - [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli)
 - [Git Client](https://git-scm.com/downloads)
 - [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://www.visualstudio.com/downloads/)
-- [Access to UserID and Workshop Progress shared Spreadsheet](http://bit.ly/2lwyflB)
+- [Access to UserID and Workshop Progress shared Spreadsheet](https://docs.google.com/spreadsheets/d/1fA56dZ28tu0-eY3nRA8OYK5aUKsJ_4c_bneRUZW23oE/edit?usp=sharing)
 
 Note: Labs should be executed in order (from Lab 0 to Lab 7)
 
