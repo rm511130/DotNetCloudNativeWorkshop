@@ -38,7 +38,7 @@ Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 (1) Please make sure you have installed the following software on your local machine:
 - [Cloud Foundry Command Line Interface - CLI](https://console.run.pivotal.io/tools)
 - [Git Client](https://git-scm.com/downloads)
-- [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://www.visualstudio.com/downloads/)
+- [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409)
 
 (2) If your are unable to install the software listed above in a timely manner, one of the instructors will give you access to an existing Windows2012R2 system that is configured and ready to be used. You will however need to access it using RDP (Remote Desktop) from your local machine:
 - [Windows Remote Desktop](https://technet.microsoft.com/en-us/library/dn473009(v=ws.11).aspx)
