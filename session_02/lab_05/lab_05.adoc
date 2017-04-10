@@ -20,8 +20,7 @@ In this lab we will push an ASP.NET MVC web application to cloud foundry.
 . Visual Studio > View > Other Windows > Cloud Foundry Explorer > Add a Target per the example shown below:
 +
 image::../../Common/images/VS_CF_Extensions.png[]
-. Visual Studio > Solution Explorer > Right-click on Project > Manage NuGet Packages
-. Add cf-msbuild using Nuget per the example shown below:
+. Visual Studio > Solution Explorer > Right-click on Project > Manage NuGet Packages and add cf-msbuild using Nuget per the example shown below:
 +
 image::../../Common/images/cf-msbuild-nuget.png[]
 . Build your project locally to make sure it is working:
