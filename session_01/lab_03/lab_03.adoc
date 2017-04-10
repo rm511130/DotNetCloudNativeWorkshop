@@ -30,7 +30,7 @@ OK
 requested state: started
 instances: 3/3
 usage: 512M x 3 instances
-urls: env-farraginous-thunderclap.apps.pcf4u.com
+urls: env-farraginous-thunderclap.cfapps.haas-64.pez.pivotal.io
 last uploaded: Sun Feb 19 18:18:32 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
@@ -76,7 +76,7 @@ OK
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: env-farraginous-thunderclap.apps.pcf4u.com
+urls: env-farraginous-thunderclap.cfapps.haas-64.pez.pivotal.io
 last uploaded: Sun Feb 19 18:18:32 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
