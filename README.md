@@ -11,7 +11,7 @@ Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 |Time | Session
 |---- | -------
 |01:00 PM  | Welcome and Introductions
-|12:15 PM  | Session 1: _Intro to Pivotal Cloud Foundry_
+|01:15 PM  | Session 1: _Intro to Pivotal Cloud Foundry_
 |          | Lab 0: _Accessing the Workshop Environment_
 |          | Lab 1: _Pushing Your First Application_
 |02:00 PM  | _Break (15 mins)_
@@ -34,7 +34,8 @@ Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 ## Getting started:
 
 **Prerequisites**
-- [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli)
+Please make sure you have installed the following software on your local machine:
+- [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli#downloads)
 - [Git Client](https://git-scm.com/downloads)
 - [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://www.visualstudio.com/downloads/)
 - [Access to UserID and Workshop Progress shared Spreadsheet](https://docs.google.com/spreadsheets/d/1fA56dZ28tu0-eY3nRA8OYK5aUKsJ_4c_bneRUZW23oE/edit?usp=sharing)
