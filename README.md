@@ -1,4 +1,4 @@
-# .NET Cloud Native Workshop - April 10th 2017  http://tinyurl.com/CareSource031017
+# .NET Cloud Native Workshop - April 10th 2017  http://tinyurl.com/CareSource0410
 Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 
 ## Instructors
