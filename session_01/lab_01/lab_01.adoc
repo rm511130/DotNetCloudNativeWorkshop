@@ -19,7 +19,7 @@ In this lab we will push a .NET web application to cloud foundry using the CF CL
 . If you haven't already, set the API target for the CLI, please set the appropriate end point for your environment using the cf api command as shown here:
 +
 ----
-> cf api api.system.pcf4u.com --skip-ssl-validation
+> cf api https://api.run.haas-64.pez.pivotal.io --skip-ssl-validation
 ----
 and login to Pivotal Cloudfoundry:
 +
@@ -67,10 +67,10 @@ OK
 Creating app env in org student-42 / space development as student-42...
 OK
 
-Creating route env-libational-ugali.apps.pcf4u.com...
+Creating route env-libational-ugali.cfapps.haas-64.pez.pivotal.io...
 OK
 
-Binding env-libational-ugali.apps.pcf4u.com to env...
+Binding env-libational-ugali.cfapps.haas-64.pez.pivotal.io to env...
 OK
 
 Uploading env...
@@ -97,7 +97,7 @@ OK
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: env-libational-ugali.apps.pcf4u.com
+urls: env-libational-ugali.cfapps.haas-64.pez.pivotal.io
 last uploaded: Sun Feb 19 16:32:52 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
@@ -111,7 +111,7 @@ Take a look at `manifest.yml` to see how.
 <2> In most cases, the CLI indicates each Cloud Foundry API call as it happens.
 In this case, the CLI has created an application record for _env_ in your assigned space.
 <3> All HTTP/HTTPS requests to applications will flow through Cloud Foundry's front-end router called https://docs.pivotal.io/pivotalcf/1-9/concepts/architecture/router.html[(Go)Router].
-Here the CLI is creating a route with random word tokens inserted (again, see `manifest.yml` for a hint!) to prevent route collisions across the default `app.system.pcf4u.com` domain.
+Here the CLI is creating a route with random word tokens inserted (again, see `manifest.yml` for a hint!) to prevent route collisions across the default `cfapps.haas-64.pez.pivotal.io` domain.
 <4> Now the CLI is _binding_ the created route to the application.
 Routes can actually be bound to multiple applications to support techniques such as https://docs.pivotal.io/pivotalcf/1-9/devguide/deploy-apps/blue-green.html[blue-green deployments].
 <5> The CLI finally uploads the application bits to Pivotal Cloud Foundry. Notice that it's uploading _39 files_! This is because Cloud Foundry actually uploads all the files for the deployment for caching purposes.
@@ -142,7 +142,7 @@ Getting apps in org student-42 / space development as student-42...
 OK
 
 name                  requested state   instances   memory   disk   urls
-env                   started           1/1         512M     1G     env-libational-ugali.apps.pcf4u.com
+env                   started           1/1         512M     1G     env-libational-ugali.cfapps.haas-64.pez.pivotal.io
 ----
 +
 
@@ -165,7 +165,7 @@ OK
 requested state: started
 instances: 1/1
 usage: 512M x 1 instances
-urls: env-libational-ugali.apps.pcf4u.com
+urls: env-libational-ugali.cfapps.haas-64.pez.pivotal.io
 last uploaded: Sun Feb 19 16:32:52 UTC 2017
 stack: windows2012R2
 buildpack: binary_buildpack
