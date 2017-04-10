@@ -20,9 +20,22 @@ In this lab we will push an ASP.NET MVC web application to cloud foundry.
 . Visual Studio > View > Other Windows > Cloud Foundry Explorer > Add a Target per the example shown below:
 +
 image::../../Common/images/VS_CF_Extensions.png[]
-. Visual Studio > Solution Explorer > Right-click on Project > Manage NuGet Packages per example shown below:
+. Visual Studio > Solution Explorer > Right-click on Project > Manage NuGet Packages
+. Add cf-msbuild using Nuget per the example shown below:
 +
 image::../../Common/images/cf-msbuild-nuget.png[]
+. Build your project locally to make sure it is working:
++
+image::../../Common/images/VS_Build_to_Test_all_is_ok.png[]
+. Publish to Cloud Foundry directly from Solution Explorer:
++
+image::../../Common/images/Publish_to_CloudFoundry.png[]
+. Publish to Cloud Foundry Wizard:
++
+image::../../Common/images/Publish_to_CF_Detailed_Screens.png[]
+. Use Apps Manager (https://apps.run.haas-64.pez.pivotal.io) to validate the successfu deployment of your App
++
+image::../../Common/images/Check_Using_Apps_Manager.png[]
 
 == Publish the Application using Visual Studio's Publish to File System method
 
