@@ -15,7 +15,7 @@ In this lab we will push an ASP.NET MVC web application to cloud foundry.
 == Publish the Application using Cloud Foundry Extensions for Visual Studio
 
 . Download and Install Cloud Foundry Extensions for Visual Studio: http://bit.ly/2oiyjGf
-  Please note that Visual Studio must be open for the installation of Cloud Foundry Extensions and must be re-started before the Cloud Extensions can be used:
+  Please note that Visual Studio must be open for the installation of Cloud Foundry Extensions:
 +
 image::../../Common/images/Install_CF_Extensions_on_VS2015.png[]
 . Visual Studio must be re-started before Cloud Foundry Extensions can be used
