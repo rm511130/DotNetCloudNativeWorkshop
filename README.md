@@ -2,34 +2,33 @@
 Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 
 ## Instructors
-- Ralph Meira, Senior Platform Architect, rmeira@pivotal.io
-- Parag Doshi, Senior Platform Architect, pdoshi@pivotal.io
-- Michael Timmers, Engagement Director, mtimmers@pivotal.io
+- Ralph Meira, Platform Architect, rmeira@pivotal.io
+- Parag Doshi, Platform Architect, pdoshi@pivotal.io
+- David Dieuruf, Platform Architect, ddieruf@pivotal.io
 
 ## Agenda
 
 Time | Session
 ---- | -------
-12:00 PM  | Welcome and Introductions
+01:00 PM  | Welcome and Introductions
 12:15 PM  | Session 1: _Intro to Pivotal Cloud Foundry_
           | Lab 0: _Accessing the Workshop Environment_
           | Lab 1: _Pushing Your First Application_
-01:00 PM  | _Break (15 mins)_
-01:15 PM  | _Labs Review_
+02:00 PM  | _Break (15 mins)_
+02:15 PM  | _Labs Review_
           | Lab 2: _Binding to Cloud Foundry Services_
           | Lab 3: _Scaling and Operating Applications_
           | Lab 4: _Monitoring Applications_
-02:00 PM  | _Break (15 mins)_
-02:15 PM  | _Labs Review_ 
+03:00 PM  | _Break (15 mins)_
+03:15 PM  | _Labs Review_ 
           | Session 2: _Cloud Native Design and Microservices_
           | Lab 5: _Deploying an ASP.NET MVC Application_
           | Lab 6: _Managing application logs from a .NET application_
-03:00 PM  | _Break (15 mins)_
-03:15 PM  | _Labs Review_
+04:00 PM  | _Labs Review_
           | Session 3: _Spring Cloud Netflix & SteelToe_
           | Lab 7: _Using Config Server from a .NET application_
-04:30 PM  | _Labs Review_
-04:45 PM  | Q&A + Survey
+04:45 PM  | _Labs Review_
+          | Survey
 05:00 PM  | Wrap-up
 
 ## Getting started:
