@@ -50,6 +50,11 @@ You must first create an instance of the Config Server service in a org/space.
 > cf create-service p-config-server standard myConfigServer -c ./config-server.json
 ----
 
+3. Use the following command to verify that the service has been created successfully. Do not proceed until this happens.
++
+----
+> cf services
+----
 
 === Publish App & Push
 
