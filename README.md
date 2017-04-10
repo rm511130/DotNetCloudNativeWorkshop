@@ -36,7 +36,7 @@ Cloud Native Application Design and Architectures with Pivotal Cloud Foundry
 **Prerequisites**
 
 (1) Please make sure you have installed the following software on your local machine:
-- [Cloud Foundry Command Line Interface - CLI](https://github.com/cloudfoundry/cli#downloads)
+- [Cloud Foundry Command Line Interface - CLI](https://console.run.pivotal.io/tools)
 - [Git Client](https://git-scm.com/downloads)
 - [VisualStudio (min: Visual Studio 2015 Update 3 Community Edition)](https://www.visualstudio.com/downloads/)
 
